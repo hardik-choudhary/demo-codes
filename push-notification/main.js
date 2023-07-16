@@ -1,4 +1,4 @@
-const applicationServerKey = "BDHpi7gABWvOmNiyzuhET2-C6HBasei0BAzcxpQGbbpr2rqH7q758MqkX6Jq9nBwEELC27pe-j7sOPTkz4gAKaI";
+const applicationServerKey = "<Your Public VAPID Key>";
 let pushButton = document.querySelector('.js-push-btn');
 
 let serviceWorkerRegistration = null;
