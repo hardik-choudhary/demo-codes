@@ -9,8 +9,8 @@ require 'web-push/vendor/autoload.php';
 // var_dump(VAPID::createVapidKeys());
 // die;
 
-$publicKey = "BDHpi7gABWvOmNiyzuhET2-C6HBasei0BAzcxpQGbbpr2rqH7q758MqkX6Jq9nBwEELC27pe-j7sOPTkz4gAKaI";
-$privateKey = "HB0FaP2rbzQFHq9NT2cM80rvfVXfpY_4HsQ54wThC-k";
+$publicKey = "<Your Public VAPID Key";
+$privateKey = "<Your Private VAPID Key";
 
 $message = json_encode([
     'title' => 'Push Message!',
